@@ -13,7 +13,7 @@ var documents = [{
     "id": 2,
     "url": "http://localhost:4000/about",
     "title": "Contact Me",
-    "body": ""
+    "body": "This site is my personal blog where I post anything that I am learning or thinking. I love understanding and Implementing Machine Learning and Deep Learning,this is where I post articles related to them. This site is basically a collection of thoughts and articles that I find useful. For questions and comments you can email at  mankarkanishka@gmail. com For bugs and errors you can share at github This site is made with minima template on jekyllminima "
     }, {
     "id": 3,
     "url": "http://localhost:4000/categories",
