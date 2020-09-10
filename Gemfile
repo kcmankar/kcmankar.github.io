@@ -20,7 +20,8 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-seo-tag'
   gem 'jekyll-archives'
-  gem 'kramdown'
+  #gem 'kramdown'
+  gem "kramdown", ">= 2.3.0"
   gem 'rouge'
 end
 
@@ -33,4 +34,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
