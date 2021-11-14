@@ -30,9 +30,12 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cadre
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: slee981/jekyll-theme-cadre
 
 # Exclude from processing.
 # The following items will not be processed, by default.
