@@ -37,7 +37,7 @@ We are using this [dataset](https://www.kaggle.com/jrobischon/wikipedia-movie-pl
 
   4. The loss is calculated by [Triplet Loss](https://en.wikipedia.org/wiki/Triplet_loss) which is used in siamese networks.
 
-  > max(||s <sub>a</sub> − s <sub>p</sub> || − ||s <sub>a</sub>  − s <sub>n</sub> || + ep, 0)
+  > max( || s <sub>a</sub> − s <sub>p</sub> || − || s <sub>a</sub>  − s <sub>n</sub> || + ep, 0)
 
   5. Given an anchor sentence a, a positive sentence p, and a negative sentence n, triplet loss tunes the network such that the distance between a and p is smaller than the distance between a and n. With s<sub>x</sub> the sentence embedding for a/n/p, || · || a distance metric and margin ep. Margin ep ensures
   that s<sub>p</sub> is at least ep closer to s<sub>a</sub> than s<sub>n</sub> . As metric the authors of paper used Euclidean distance and we set ep = 1.

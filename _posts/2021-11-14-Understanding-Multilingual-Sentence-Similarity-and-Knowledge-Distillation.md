@@ -23,7 +23,7 @@ Here as you can see in the diagram the Teacher model is given "Hello World" as a
 
 To go more in detail I will quote some portion mentioned in original [paper](https://arxiv.org/abs/2004.09813 "Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation")
 
->We require a teacher model M , that maps sentences in one or more source languages s to a dense vector space. Further, we need parallel (translated) sentences ((s<sub>1</sub> , t<sub>1</sub> ), ..., (s<sub>n</sub> , t<sub>1</sub>)) with s<sub>i</sub> a sentence in
+> We require a teacher model M , that maps sentences in one or more source languages s to a dense vector space. Further, we need parallel (translated) sentences ((s<sub>1</sub> , t<sub>1</sub> ), ..., (s<sub>n</sub> , t<sub>1</sub>)) with s<sub>i</sub> a sentence in
 one of the source languages and t<sub>i</sub> a sentence in
 one of the target languages.
 We train a student model M<sup>^</sup> such that
@@ -127,8 +127,7 @@ language in another column. This will also help us plot the data later
 with [plotly](https://plotly.com/)
 
 1.  We will create a copy of that dataframe i.e fd
-2.  Then we will pivot or rearrange the dataframe using pd.melt [pandas
-   melt](https://pandas.pydata.org/docs/reference/api/pandas.melt.html)
+2.  Then we will pivot or rearrange the dataframe using pd.melt [pandas melt](https://pandas.pydata.org/docs/reference/api/pandas.melt.html)
 3.  We will input all these sentences into our SentenceTransformer model
 
 
