@@ -1,0 +1,9 @@
+- name: Email
+  link: mailto:mankarkanishka@gmail.com
+  icon: fas fa-envelope
+- name: Twitter
+  link: https://twitter.com/Kanishka_Mankar
+  icon: fab fa-twitter
+- name: GitHub
+  link: https://github.com/kcmankar
+  icon: fab fa-github

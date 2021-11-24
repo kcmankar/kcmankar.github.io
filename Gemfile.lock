@@ -87,6 +87,7 @@ DEPENDENCIES
   jekyll (~> 4.2.1)
   jekyll-feed (~> 0.12)
   jekyll-remote-theme
+  jekyll-seo-tag
   jekyll-theme-cadre
   minima (~> 2.5)
   tzinfo (~> 1.2)

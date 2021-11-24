@@ -20,7 +20,7 @@
 
 title: Home | Kanishka Mankar's blog
 email: mankarkanishka@gmail.com
-
+author: Kanishka Mankar
 description: "Hello, My name is Kanishka Mankar.This is my personal blog site where I post articles about stuff that I find interesting. <br> Email :- mankarkanishka@gmail.com"
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -33,6 +33,7 @@ theme: jekyll-theme-cadre
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 remote_theme: slee981/jekyll-theme-cadre
 
