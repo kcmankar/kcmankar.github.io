@@ -29,7 +29,7 @@ twitter_username: Kanishka_Mankar
 github_username:  kcmankar
 
 # Build settings
-theme: jekyll-theme-cadre
+#theme: jekyll-theme-cadre
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
