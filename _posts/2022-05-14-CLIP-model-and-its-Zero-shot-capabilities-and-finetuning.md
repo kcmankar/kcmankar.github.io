@@ -18,7 +18,7 @@ categories: [Deep Learning,CLIP]
 
   The output of image encoder (1 x N) and text encoder (1 x N) are multiplied with each other to produce (N x N) possible image text pairings. Hopefully the diagonal of the resultant matrix should have highest values, where each image corresponds to it's text description. During the training the loss is then calculated on both horizontally and vertically axis.
 
-  ![axis](https://imgur.com/IGuhkAH)
+  ![axis](https://imgur.com/IGuhkAH.png)
 
   The loss is then added. In their paper they give some dummy code
 
@@ -85,7 +85,7 @@ The Stanford dataset has two folders one /cars_train where all the images of the
 
 Lets look at the car_devkit folder.
 
-![Folder Structure](https://imgur.com/a/E08Dctj)
+![Folder Structure](https://imgur.com/fCKSQ0L.png)
 
 Here we can see that file 'cars_train_annos.mat' contains the annotations of the file such as
 bbox_x1,bbox_x2,bbox_y1,bbox_y2 for bounding box and also label,file name. We don't need bounding box co-ordinates for this project.
