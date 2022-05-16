@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-16T16:57:32+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Home | Kanishka Mankar</title><subtitle>Hello, My name is Kanishka Mankar.This is my personal blog site where I post articles about stuff that I find interesting. &lt;br&gt; Email :- mankarkanishka@gmail.com</subtitle><author><name>Kanishka Mankar</name></author><entry><title type="html">CLIP model and its Zero shot capabilities</title><link href="http://localhost:4000/deep%20learning/clip/2022/05/14/CLIP-model-and-its-Zero-shot-capabilities-and-finetuning.html" rel="alternate" type="text/html" title="CLIP model and its Zero shot capabilities" /><published>2022-05-14T00:00:00+05:30</published><updated>2022-05-14T00:00:00+05:30</updated><id>http://localhost:4000/deep%20learning/clip/2022/05/14/CLIP-model-and-its-Zero-shot-capabilities-and-finetuning</id><content type="html" xml:base="http://localhost:4000/deep%20learning/clip/2022/05/14/CLIP-model-and-its-Zero-shot-capabilities-and-finetuning.html">&lt;h2 id=&quot;clip-model-and-its-zero-shot-capabilities&quot;&gt;CLIP model and its Zero shot capabilities&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-16T17:13:42+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Home | Kanishka Mankar</title><subtitle>Hello, My name is Kanishka Mankar.This is my personal blog site where I post articles about stuff that I find interesting. &lt;br&gt; Email :- mankarkanishka@gmail.com</subtitle><author><name>Kanishka Mankar</name></author><entry><title type="html">CLIP model and its Zero shot capabilities</title><link href="http://localhost:4000/deep%20learning/clip/2022/05/14/CLIP-model-and-its-Zero-shot-capabilities-and-finetuning.html" rel="alternate" type="text/html" title="CLIP model and its Zero shot capabilities" /><published>2022-05-14T00:00:00+05:30</published><updated>2022-05-14T00:00:00+05:30</updated><id>http://localhost:4000/deep%20learning/clip/2022/05/14/CLIP-model-and-its-Zero-shot-capabilities-and-finetuning</id><content type="html" xml:base="http://localhost:4000/deep%20learning/clip/2022/05/14/CLIP-model-and-its-Zero-shot-capabilities-and-finetuning.html">&lt;h2 id=&quot;clip-model-and-its-zero-shot-capabilities&quot;&gt;CLIP model and its Zero shot capabilities&lt;/h2&gt;
 
 &lt;hr /&gt;
 &lt;h3 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h3&gt;
@@ -12,7 +12,7 @@
 
 &lt;p&gt;The output of image encoder (1 x N) and text encoder (1 x N) are multiplied with each other to produce (N x N) possible image text pairings. Hopefully the diagonal of the resultant matrix should have highest values, where each image corresponds to it’s text description. During the training the loss is then calculated on both horizontally and vertically axis.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/IGuhkAH&quot; alt=&quot;axis&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/IGuhkAH.png&quot; alt=&quot;axis&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The loss is then added. In their paper they give some dummy code&lt;/p&gt;
 
@@ -72,7 +72,7 @@ We are going to download and extract the dataset and look at how it’s structur
 
 &lt;p&gt;Lets look at the car_devkit folder.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/a/E08Dctj&quot; alt=&quot;Folder Structure&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/fCKSQ0L.png&quot; alt=&quot;Folder Structure&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here we can see that file ‘cars_train_annos.mat’ contains the annotations of the file such as
 bbox_x1,bbox_x2,bbox_y1,bbox_y2 for bounding box and also label,file name. We don’t need bounding box co-ordinates for this project.&lt;/p&gt;
