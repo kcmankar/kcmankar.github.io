@@ -21,13 +21,13 @@
 title: Home | Kanishka Mankar
 email: mankarkanishka@gmail.com
 author: Kanishka Mankar
-description: "Hello, My name is Kanishka Mankar.This is my personal blog site where I post articles about stuff that I find interesting. <br> Email :- mankarkanishka@gmail.com"
+description: "Hello, My name is Kanishka Mankar.This is my personal blog site where I post articles about stuff that I find interesting. <br> Email : mankarkanishka@gmail.com"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kanishkamankar.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Kanishka_Mankar
 github_username:  kcmankar
-
+favicon_img: favicon.png
 # Build settings
 #theme: jekyll-theme-cadre
 plugins:
