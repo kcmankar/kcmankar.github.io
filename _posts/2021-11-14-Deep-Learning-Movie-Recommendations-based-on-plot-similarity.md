@@ -10,9 +10,11 @@ categories: [Deep Learning, NLP, Movie Recommendation]
 
 1. Introduction:
 
-In this article we are going to build a movie recommendation system, but not based on score we are going to recommend movies based on the similarity of  their plot or summaries.
+In this article we are going to build a movie recommendation system, but not based on score of audience, we are going to recommend movies based on the similarity of their plots or summaries.
 
 We are using this [dataset](https://www.kaggle.com/jrobischon/wikipedia-movie-plots) for getting our summary of movie or plot of the movie.
+
+Here is a very very simple website UI I made for movie recommendation based on plot Link: **[site](https://kcmankar.github.io/website_movie_recommendations_sbert.github.io/)**, we will learn about the algorithm behind it in this article.
 
 2. Process:
 
@@ -779,7 +781,7 @@ recs(dfM,"fast five",idx_dict)
 id_toRecs = dfM['reccomendations'].to_dict() #dictionary from index to reccomendations
 ```
 
-### Here is a very very simple website I made for movie reccomendation based on plot [site](https://kcmankar.github.io/website_movie_recommendations_sbert.github.io/).
+### Here is a very very simple website I made for movie recommendation : [site](https://kcmankar.github.io/website_movie_recommendations_sbert.github.io/)
 
 ### The code for website is [here](https://github.com/kcmankar/website_movie_recommendations_sbert.github.io)
 
